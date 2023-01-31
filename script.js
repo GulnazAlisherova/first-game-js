@@ -1,9 +1,9 @@
-var character = document.getElementById("character"); 
-var block= document.getElementById("block");
+var character = document.getElementById("character");
+var block = document.getElementById("block");
 
-function jump(){
+function jump() {
   character.classList.add("animate");
-  setTimeout(function(){
+  setTimeout(function () {
     character.classList.remove("animate");
-  },500);
+  }, 500);
 }
