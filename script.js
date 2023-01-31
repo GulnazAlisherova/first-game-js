@@ -11,5 +11,6 @@ function jump() {
   }, 500);
 }
 var checkHead = setInterval(function(){
-  
+  var characterTop = 
+  parseInt(window.getComputedStyle(character).getPropertyValue("top"));
 },10)
