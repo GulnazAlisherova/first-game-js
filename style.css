@@ -1,20 +1,20 @@
-*{
+* {
   padding: 0;
   margin: 0;
 }
-#game{
+#game {
   width: 500px;
   height: 200px;
   border: 1px solid black;
 }
-#character{
+#character {
   width: 20px;
   height: 50px;
   background-color: red;
   position: relative;
   top: 150px;
 }
-#block{
+#block {
   width: 20px;
   height: 20px;
   background-color: blue;
@@ -24,7 +24,11 @@
   animation: block 1s infinite;
 }
 /* animation */
-@keyframes block{
-  0%{left: 480px;}
-  100%{left:-40px; }
+@keyframes block {
+  0% {
+    left: 480px;
+  }
+  100% {
+    left: -40px;
+  }
 }
