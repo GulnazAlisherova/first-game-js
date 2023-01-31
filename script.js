@@ -15,7 +15,9 @@ var checkHead = setInterval(function () {
     parseInt(window.getComputedStyle(character).getPropertyValue("top"));
   var blockLeft =
     parseInt(window.getComputedStyle(block).getPropertyValue("left"));
-  if (blockLeft < 20 && blockLeft > 0 %% characterTop >= 130) {
+  if (blockLeft < 20 && blockLeft > 0 % characterTop >= 130) {
+    block.style.animation = "none";
+    block.style.disply = "none";
     alert("u lose.")
   }
 }, 10)
