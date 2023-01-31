@@ -1,1 +1,2 @@
-let character = document.getElementById("character"); 
+var character = document.getElementById("character"); 
+var block= document.getElementById("block");
